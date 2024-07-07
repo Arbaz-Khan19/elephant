@@ -1,0 +1,192 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner-with-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 55px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide {
+        width: 97%;
+    }
+
+    .banner-with-form .left-section {
+        width: 100% !important;
+        height: 200px !important;
+        margin-right: 0px !important;
+        margin-bottom: 21px;
+    }
+
+    .banner-with-form .right-section {
+        width: 100%;
+    }
+
+    .parent-div {
+        margin-bottom: 30px;
+    }
+
+    .content {
+        width: 86%;
+    }
+
+    .background {
+        padding-top: 28px;
+        margin-left: 12px;
+        padding-left: 28.3px;
+        padding-bottom: 23px;
+        background: #EFFBFF url("/images/shutterstock_1532237429.png") bottom right no-repeat;
+        background-size: contain;
+        border-radius: 74px 85px 81px 0px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper {
+        height: 200px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper h2 {
+        font-size: 20px !important;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide p {
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+
+    .content ul {
+        columns: 2;
+    }
+
+    .content ul li {
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+
+
+    .form-title {
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .banner-with-form {
+        padding: 0 16px !important;
+    }
+
+    .partners-section {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .insurance-details {
+        padding: 0 16px !important;
+    }
+
+    .car-policy {
+        padding: 0 16px !important;
+    }
+
+    .faq .container {
+        padding: 0 16px !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .banner-with-form {
+        padding: 0 16px;
+        flex-direction: column;
+    }
+
+    .left-section {
+        width: 100% !important;
+    }
+
+    .right-section {
+        width: 100% !important;
+    }
+
+    .radio-parent {
+        margin-bottom: 19.6px;
+    }
+
+    .parent-div {
+        flex-direction: column;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .input-wrapper {
+        margin-bottom: 19.6px;
+    }
+
+    .radio-btn {
+        width: 100%;
+    }
+
+    .parent-div {
+        margin-bottom: 0px;
+    }
+
+    .partners-section {
+        padding-bottom: 19px;
+    }
+
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partners-section img {
+        margin-bottom: 32px;
+    }
+
+    .faq .container ul li {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .banner-with-form .left-section {
+        max-height: 252px;
+        margin-bottom: 10px;
+    }
+
+    .form-title h2 {
+        font-size: 16px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper h2 {
+        font-size: 16px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide {
+        width: 99%;
+    }
+
+    .background {
+        margin-left: 8px;
+        background-size: 48% 61%;
+        padding: 20px 3px 17px 32px;
+        border-radius: 57px 116px 82px 0px;
+    }
+
+    .banner-with-form .content ul li {
+        font-size: 12px;
+    }
+
+    .banner-with-form .left-section {
+        border-radius: 41px 108px 78px 0px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper {
+        height: 252px;
+    }
+
+    .banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide p {
+        font-size: 12px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+    }
+}

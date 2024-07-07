@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner-with-form {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.banner-with-form .left-section {
+    margin-right: 51.56px;
+    width: 34.4%;
+    background: #C6F3FF 0% 0% no-repeat padding-box;
+    border-radius: 190px 275px 200px 0px;
+    max-height: 495px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-with-form .swiper::-webkit-scrollbar {
+    display: none;
+}
+.swiper-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+.banner-with-form .swiper-pagination-bullet-active {
+    width: 8px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper {
+    height: 495px;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #171A21;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide {
+    width: 98%;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper h2 {
+    font-size: 24px;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper h2 span {
+    color: #19C2F2;
+}
+
+.banner-with-form .left-section .swiper .swiper-wrapper .swiper-slide p {
+    color: #080808;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.background {
+
+    padding-top: 128px;
+    padding-bottom: 57.4px;
+    margin-left: 34.7px;
+    padding-left: 37.48px;
+    background: #EFFBFF url("/images/Mask Group 14.png") bottom right no-repeat;
+    border-radius: 190px 275px 159px 0px;
+}
+
+.banner-with-form .content {
+    width: 80%;
+}
+
+.banner-with-form .content ul {
+    padding-left: 13.3px;
+}
+
+.banner-with-form .content ul li {
+    font-size: 16px;
+    color: #080808;
+    margin-bottom: 6px;
+    font-weight: 500;
+    position: relative;
+    list-style: none;
+}
+
+.banner-with-form .content ul li::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #19C2F2 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    left: -13px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.swiper-pagination {
+    padding-right: 25px;
+}
+
+/* right section */
+.right-section {
+    width: 45.7%;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.parent-div .inps,
+.parent-div select {
+    padding: 13.5px;
+    font-size: 13px;
+    color: #333333;
+    border: 1px solid #D2D3D4;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.radio-parent input {
+    display: none;
+}
+
+.radio-parent div {
+    font-size: 13px;
+    color: #333333;
+    border: 1px solid #D2D3D4;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+}
+
+.radio-parent label {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13.5px;
+    height: 43px;
+}
+
+.radio-parent input:checked+label {
+    background-color: #C6F3FF;
+}
+
+.input-wrapper {
+    width: 47.7%;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: -22px;
+}
+
+.info img {
+    margin-right: 5px;
+}
+
+.info p {
+    color: #333333;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.parent-div input:focus {
+    outline: none;
+}
+
+.radio-btn {
+    width: 47.7%;
+    position: relative;
+}
+
+.radio-parent {
+    display: flex;
+    align-items: center;
+}
+
+.radio-btn .info p {
+    color: #939499;
+    margin-right: 5px;
+}
+
+.desc {
+    margin-top: 2.5px;
+}
+
+.desc p {
+    color: #939499;
+    font-size: 11px;
+}
+
+.view-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.view-quote button {
+    padding: 18.5px 63px;
+    background-color: #F2581B;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-quote img {
+    margin-left: 7px;
+}
+
+.privacy {
+    text-align: center;
+    margin-bottom: 13.4px;
+}
+
+.privacy a {
+    color: #107591;
+}
+
+
+
+.whatsapp-updates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-updates img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.whatsapp-updates label {
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.whatsapp-updates .check {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.whatsapp-updates .check__check {
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.whatsapp-updates .check__check:checked~.check__indicator {
+    background: #107591;
+}
+
+.whatsapp-updates .check__check:checked~.check__indicator:after {
+    transform: translate(40px, 0);
+}
+
+.whatsapp-updates .check__check,
+.whatsapp-updates .check__indicator {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.whatsapp-updates .check__indicator {
+    background: #ececec;
+    /* transition: background 0.25s ease; */
+}
+
+.whatsapp-updates .check__indicator:after {
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    border-radius: 100%;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.25s ease;
+}
+
+
+/* partneres section */
+.partners-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* max-height: 550px; */
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 88px;
+    padding-top: 51px;
+    padding-bottom: 57px;
+    background: #EFFBFF;
+}
+
+.partner-title {
+    margin-bottom: 19px;
+}
+
+
+/* insurance-details */
+.insurance-details {
+    margin-top: 72px;
+}
+
+.insurance-details .container {
+    max-width: 1074px;
+    margin: 0 auto;
+}
+
+.insurance-details .container .desc {
+    margin-bottom: 72px;
+}
+
+.insurance-details .container h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #080808;
+    margin-bottom: 20px;
+}
+
+.insurance-details .container p {
+    font-size: 16px;
+    color: #080808;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+/* car policy */
+.car-policy {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background: #EFFBFF;
+}
+
+.car-policy .container {
+    max-width: 1074px;
+    margin: 0 auto;
+}
+
+.car-policy .title {
+    text-align: center;
+}
+.car-policy .title h2 {
+    margin-bottom: 20px;
+}
+.car-policy .title p {
+    margin-bottom: 40px;
+}
+
+.car-policy table {
+    border-collapse: collapse;
+}
+
+.car-policy tr th,
+td {
+    border: 1px solid #B9B9B9;
+    padding: 18px;
+}
+
+.car-policy tr th {
+    background-color: #C6F3FF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.car-policy tr td {
+    background-color: #FFFFFF;
+    color: #080808;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.car-policy tr th:first-child,
+td:first-child {
+    width: 34.5%;
+}
+
+.car-policy tr th:last-child,
+td:last-child {
+    width: 64.8%;
+}
+
+.car-policy {}
+
+
+
+.faq {
+    background-color: #EFFBFF;
+}
+.faq .container {
+    max-width: 1074px;
+    margin: 0 auto;
+    background-color: #EFFBFF;
+}
+.tabs {
+    margin-bottom: 8px;
+}
+.faq .container .title {
+    text-align: center;
+    font-size: 24px;
+    color: #080808;
+    margin-bottom: 30px;
+}
+.faq .container ul {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #838383;
+
+}
+.faq .container ul li {
+    list-style: none;
+    padding: 12px;
+    font-size: 16px;
+    color: #838383;
+    font-weight: 600;
+    border: 0.5px solid #838383;
+    border-bottom: none;
+    border-radius: 12px 12px 0px 0px;
+    cursor: pointer;
+}
+.faq .container ul li.active {
+    color: #080808;
+    background-color: #96E5FC;
+}
+.faqs-content {
+    display: none;
+}
+.faq .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.faqs-content .content h4 {
+    cursor: pointer;
+    color: #080808;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.faqs-content .content h4::before {
+    content: url("/images/Group%2013102.svg");
+    position: absolute;
+    right: 0px;
+    padding-right: 4px;
+
+}
+.faqs-content .content h4.active::before {
+    content: url("/images/Group%2010698.svg");
+    position: absolute;
+}
+.faqs-content.active {
+    display: block;
+}
+.faqs-content .description {
+    display: none;
+    color: #080808;
+    font-size: 14px;
+}
+.faqs-content .description.active {
+    display: block;
+}
