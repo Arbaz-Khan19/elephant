@@ -73,7 +73,7 @@
     padding-bottom: 57.4px;
     margin-left: 34.7px;
     padding-left: 37.48px;
-    background: #EFFBFF url("/images/Mask Group 14.png") bottom right no-repeat;
+    background: #EFFBFF url("/images/image18.png") bottom right no-repeat;
     border-radius: 190px 275px 159px 0px;
 }
 
@@ -477,14 +477,14 @@ td:last-child {
     position: relative;
 }
 .faqs-content .content h4::before {
-    content: url("/images/Group%2013102.svg");
+    content: url("/images/image17.svg");
     position: absolute;
     right: 0px;
     padding-right: 4px;
 
 }
 .faqs-content .content h4.active::before {
-    content: url("/images/Group%2010698.svg");
+    content: url("/images/image16.svg");
     position: absolute;
 }
 .faqs-content.active {
